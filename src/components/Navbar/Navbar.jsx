@@ -75,7 +75,7 @@ const Navbar = () => {
           <span className="text-[#8245ec]">&lt;</span>
           <span className="text-white">Raj</span>
           <span className="text-[#8245ec]">/</span>
-          <span className="text-white">Patel</span>
+          <span className="text-white">Nayi</span>
           <span className="text-[#8245ec]">&gt;</span>
         </div>
 

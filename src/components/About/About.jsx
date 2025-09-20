@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // Using the profile image from public folder
 const profileImage = "/rajj.jpg";
-const fallbackImage = "https://via.placeholder.com/400x400/6366f1/ffffff?text=Raj+Patel";
+const fallbackImage = "https://via.placeholder.com/400x400/6366f1/ffffff?text=Raj+Nayi";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -54,7 +54,7 @@ const About = () => {
           {/* Name */}
           <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-white leading-tight 
           bg-gradient-to-r from-white via-purple-200 to-white bg-clip-text text-transparent">
-            Raj Patel
+            Raj Nayi
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold text-white leading-tight">
@@ -84,7 +84,7 @@ const About = () => {
           <div className="mt-4 sm:mt-6 md:mt-8 px-1 sm:px-2">
             <a
               href="/RAJ_CV_2025_01.pdf"
-              download="Raj_Patel_Civil_Engineer_CV_2025.pdf"
+              download="Raj_Nayi_Civil_Engineer_CV_2025.pdf"
               rel="noopener noreferrer"
               className="group relative inline-flex items-center justify-center w-full sm:w-auto 
               bg-gradient-to-r from-purple-600 via-purple-700 to-pink-600 
@@ -94,7 +94,7 @@ const About = () => {
               shadow-[0_0_20px_rgba(130,69,236,0.4)] hover:shadow-[0_0_30px_rgba(130,69,236,0.6)]
               border border-purple-400/30 hover:border-purple-300/50
               text-xs sm:text-sm md:text-base lg:text-lg tracking-wide"
-              aria-label="Download Raj Patel Civil Engineer CV"
+              aria-label="Download Raj Nayi Civil Engineer CV"
             >
               {/* Background glow effect */}
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
@@ -141,7 +141,7 @@ const About = () => {
               <div className="w-full h-full bg-gray-900 rounded-full p-1 sm:p-2">
                 <img
                   src={profileImage}
-                  alt="Raj Patel Civil Engineer profile"
+                  alt="Raj Nayi Civil Engineer profile"
                   className="w-full h-full rounded-full object-cover shadow-2xl"
                   loading="lazy"
                   decoding="async"

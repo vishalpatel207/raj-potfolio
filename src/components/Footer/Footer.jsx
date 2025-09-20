@@ -38,7 +38,7 @@ const Footer = () => {
     <footer ref={sectionRef} id="footer" className="text-white py-6 px-2 sm:px-4 md:px-8 lg:px-20 w-full">
       <div className="container mx-auto text-center">
         {/* Name / Logo */}
-        <h2 className="text-base sm:text-lg md:text-xl font-semibold text-purple-500">Vishal Patel</h2>
+        <h2 className="text-base sm:text-lg md:text-xl font-semibold text-purple-500">Vishal Nayi</h2>
 
         {/* Navigation Links - Responsive */}
         <nav className="flex flex-wrap justify-center gap-x-2 gap-y-1 sm:gap-x-4 sm:gap-y-2 mt-4">
@@ -63,7 +63,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center gap-x-3 gap-y-2 mt-6">
           {[
             { icon: <FaFacebook />, link: "https://www.facebook.com/profile.php?id=100030068991847"},
-            { icon: <FaTwitter />, link: "https://x.com/PatelVishal3150" },
+            { icon: <FaTwitter />, link: "https://x.com/NayiVishal3150" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/vishal-patel-065610250/" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/accounts/password/reset/" },
             // { icon: <FaYoutube />, link: "https://www.youtube.com/codingmasteryt" },
@@ -82,7 +82,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-xs sm:text-sm md:text-base text-gray-400 mt-6">
-          © 2025 Vishal Patel. All rights reserved.
+          © 2025 Vishal Nayi. All rights reserved.
         </p>
       </div>
     </footer>
